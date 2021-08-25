@@ -69,8 +69,6 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  padding-top: 25px;
-  padding-bottom: 25px;
   color: #8d8d8d;
 }
 
@@ -86,4 +84,24 @@ body {
 .footer__para {
   font-size: 12px;
   text-align: center;
+}
+
+.footer__para--first {
+  margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+  .footer__para--first {
+    margin: 0;
+  }
+}
+
+.footer__para--second {
+  margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+  .footer__para--second {
+    margin: 0;
+  }
 }
