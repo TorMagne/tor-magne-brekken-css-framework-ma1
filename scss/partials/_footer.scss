@@ -1,0 +1,20 @@
+.footer {
+  background: getColor(white);
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: getColor(txt-color);
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+  }
+  &__para {
+    font-size: 12px;
+    text-align: center;
+  }
+}

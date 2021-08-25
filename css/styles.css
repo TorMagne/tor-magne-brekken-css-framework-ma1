@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.navbar {
+  background: #f4f3ee;
+}
+
+.navbar .navbar-brand {
+  font-size: 36px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #c32c72;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.main {
+  margin: 0 auto;
+}
+
+.main__header {
+  margin-top: 33px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.main__box {
+  height: 355px;
+  width: 357px;
+  background: #f4f3ee;
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.main__box--border {
+  border: 3px solid #c32c72;
+}
+
+.main__box--solid {
+  background: #c32c72;
+}
+
+.footer {
+  background: #ffffff;
+  height: 92px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #8d8d8d;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+  }
+}
+
+.footer__para {
+  font-size: 12px;
+  text-align: center;
+}

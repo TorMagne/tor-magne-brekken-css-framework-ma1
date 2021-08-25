@@ -1,0 +1,19 @@
+.navbar {
+  background: getColor(primary);
+  .navbar-brand {
+    font-size: 36px;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.nav-item {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: getColor(dark-pink);
+}

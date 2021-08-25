@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$colors: (
+  primary: #f4f3ee,
+  bg-color: #e5e5e5,
+  white: #ffffff,
+  dark-pink: #c32c72,
+  txt-color: #8d8d8d,
+  light-black: #463f3a,
+);
+
+$tablet-width: 768px;
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}

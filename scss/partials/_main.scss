@@ -1,0 +1,21 @@
+.main {
+  margin: 0 auto;
+  &__header {
+    margin-top: 33px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  &__box {
+    height: 355px;
+    width: 357px;
+    background: getColor(primary);
+    border-radius: 15px;
+    margin: 30px;
+  }
+  &__box--border {
+    border: 3px solid getColor(dark-pink);
+  }
+  &__box--solid {
+    background: getColor(dark-pink);
+  }
+}
